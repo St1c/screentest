@@ -1,11 +1,10 @@
-Screen quality measurement application
-=======
+# Screen quality measurement application
 
 
 Simple application for harvesting information about the end user watching conditions for use in the video and image quality assessments.
 
-License
-=======
+## License
+
 This screen quality testing application is licensed under a Creative Commons Attribution 3.0 Austria License.
 
 THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
@@ -15,8 +14,7 @@ THIS SOFTWARE IS LICENSED FOR USAGE WITHIN STUDIES AND TRIALS CONDUCTED WITH CLO
 ANY USE OF THIS OF THIS SOFTWARE MUST BE PROPERLY REFERENCED, AND FOLLOWING PUBLICATIONS MUST BE CITED:
 
 
-Reliability checks
-==================
+## Reliability checks
 
 Screen Quality page reliability checks (max 20 points): 
 
@@ -57,6 +55,6 @@ where $max is 20 (screen test) or 10 (video test), and $cheats are collected poi
 $perc = round( 100 * ( -0.5 * ( tanh($normScore - 3) - 1 ) ) ).
 ```
 
-(https://github.com/St1c/screentest/img/tanh.png)
+![hyperbolic tangens](https://raw.github.com/St1c/screentest/master/img/tanh.png "Hyperbolic tangens")
 
 The percentage score is stored with every test. The overall reliability score of the users is calculated as an average value from all test scores user already finished (let’s say for screen test he achieved 91% and for video test 98%, so the users reliability is 95%). Only users with reliability above certain threshold (usually 91%) are invited to rate more than 1 video. 
