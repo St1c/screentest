@@ -37,6 +37,10 @@ THIS SOFTWARE IS LICENSED FOR USAGE WITHIN STUDIES AND TRIALS CONDUCTED WITH CLO
 }
 ```
 
+## Demo 
+
+The demo of this script is available at [screen.dataworkers.eu](http://screen.dataworkers.eu).
+
 ## Functionality
 
 ### Conditions related variables 
