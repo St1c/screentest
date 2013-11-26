@@ -13,17 +13,23 @@ THIS SOFTWARE IS LICENSED FOR USAGE WITHIN STUDIES AND TRIALS CONDUCTED WITH CLO
 
 **ANY USE OF THIS OF THIS SOFTWARE MUST BE PROPERLY REFERENCED, AND FOLLOWING PUBLICATIONS MUST BE CITED:**
 
-**1. Best Practices for QoE Crowdtesting: QoE Assessment with Crowdsourcing** - accepted for publication
+**1. Best Practices for QoE Crowdtesting: QoE Assessment with Crowdsourcing**
 ```
 @ARTICLE{BestPractices,
   author = {Tobias Hossfeld and  Christian Keimel and  Matthias Hirth and  Bruno Gardlo and  Julian Habigt and  Klaus Diepold and  Phuoc Tran-Gia },
-  title = {{Best Practices for QoE Crowdtesting: QoE Assessment with Crowdsourcing}},
+  journal={Multimedia, IEEE Transactions on},
+  title={Best Practices for QoE Crowdtesting: QoE Assessment with Crowdsourcing}, 
   journal = {Transactions on Multimedia},
-  volume = {},
-  month = jan,
-  year = {2014},
+  volume = {PP},
+  pages={1-1}, 
+  number={99}, 
+  year = {2013},
+  doi={10.1109/TMM.2013.2291663}, 
+  ISSN={1520-9210},
 }
 ```
+[On IEEExplore](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6671455&searchField%3DSearch_All%26queryText%3Dbest+practices+crowdsourcing)
+
 
 **2. Crowdsourcing 2.0: Enhancing Execution Speed and Reliability of Web-based QoE Testing** - submitted, in review
 ```
